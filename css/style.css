@@ -1,0 +1,71 @@
+* {
+  color: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Variables */
+/* SCSS*/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  color: #acacac;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: #99bfb3;
+}
+
+.botonhome {
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem;
+  margin-bottom: 2em;
+}
+
+.botonhome:hover {
+  background-color: grey;
+  color: white;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  background-color: #e5e4e2;
+  border-radius: 15px 15px 15px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.contenido {
+  margin: 2rem;
+}
+
+.precio {
+  font-size: 2rem;
+  color: black;
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=style.css.map */
