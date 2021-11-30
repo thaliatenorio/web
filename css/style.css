@@ -68,4 +68,32 @@ h2 {
   color: black;
   padding-bottom: 1em;
 }
+
+.gaboClass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 5rem 3rem;
+}
+
+.gaboClassItem {
+  min-width: 20rem;
+  margin: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .gaboClassItem {
+    min-width: 15rem;
+    margin: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
